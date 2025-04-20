@@ -1,0 +1,137 @@
+/* Estilos para tablets (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contacto-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .nosotros-content {
+    padding: 0 20px;
+  }
+
+  .valores-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Estilos para móviles (hasta 768px) */
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 15px;
+  }
+
+  .logo a {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .navbar.active {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .navbar.active ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-mobile {
+    display: block;
+  }
+
+  .hero-content {
+    padding: 0 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .servicio-card {
+    padding: 20px;
+  }
+
+  .contacto-info {
+    text-align: center;
+  }
+
+  .info-card, .horario-card {
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .whatsapp-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsapp-button i {
+    font-size: 24px;
+  }
+}
+
+/* Estilos para móviles pequeños (hasta 480px) */
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .servicio-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .contacto-form {
+    padding: 15px;
+  }
+
+  .btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
+  }
+} 
